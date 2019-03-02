@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="menu">
+
+        <center>
+            <li>
+                <a href="#about">About Me</a>
+                <a href="#photos">My Photos</a>
+                <a href="#playlist">My Playlist</a>
+                <a href="#like">Like</a>
+                <a href="#qrcoder">QR code</a>
+                <a href="#spa">Q&A</a>
+                <a href="#contact">Contact Me</a>
+            </li>
+        </center>
+    </div>
+
+    <section id="about" class="section">
+        <br />
+        <br />
+        <br />
+        <br />
+        <center>
+            <img src=Aboutme.gif width=500 height=100 />
+            <center />
+            <br />
+            <br />
+            <center>
+
+                My name is El Profesor and I am the Main actor in the "La Casa De papel" Spainish series.    <br />
+                I have a big planning to execute the biggest bank heist ever seen before, I am going to implement my father dream.    <br />
+                The idea is to recruits a team of eight people with certain abilities who have nothing to lose.    <br />
+                The goal is to enter the Royal Mint of Spain in Madrid, the capital of Spain, and print 2.4 billion euro.
+
+                <br />
+                <br />
+                <br />
+
+                <img src=actors.jpg width=500 height=300 />
+
+                <center />
+
+
+                <br />
+    </section>
+
+    <section id="photos" class="section">
+        <br />
+        <br />
+        <br />
+        <center>
+            <img src=Myphotos.jpg width=500 height=100 />
+            <center />
+
+            <br />
+            <br />
+            <br />
+            <center>
+                <img src=pic.jpg width=500 height=400 />
+                <center />
+
+
+    </section>
+
+    <section id="playlist" class="section">
+        <br />
+        <br />
+        <br />
+        <center>
+            <img src=playlist.gif width=500 height=100 />
+            <center />
+            <br />
+            <br />
+            <br />
+            <iframe width="440" height="230" src="https://www.youtube.com/embed/F1oHBcTdKL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><span class="tab"></span></p>
+
+            <iframe width="440" height="230" src="https://www.youtube.com/embed/spCdFMnQ1Fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="like" class="section">
+        <br />
+        <br />
+        <center>
+            <img src=Like.jpg width=500 height=100 />
+
+            <img src=LikeGif.gif width=200 height=100 />
+
+            <br />
+            <br />
+
+            <center />
+            <br />
+            <br />
+            <br />
+
+</section>
+
+    <section id="qrcoder" class="section">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <center>
+            <img src=QR.jpg width=500 height=100 />
+            <center />
+            <br />
+            <br />
+            <br />
+    </section>
+
+    <section id="spa" class="section">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <center>
+            <img src=QA.jpg width=500 height=100 />
+            <center />
+            <br />
+            <br />
+            <br />
+    </section>
+
+    <section id="contact" class="section">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <center>
+            <img src=ContactMe.jpg width=500 height=100 />
+            <center />
+
+            <br />
+            <br />
+            <br />
+    </section>
+
+
+    <script type="text/javascript">
+        $(function () {
+            $("#nav a").click(function (e) {
+                e.preventDefault();
+                $('html,body').scrollTo(this.hash, this.hash);
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).scroll(function () {
+            $('#menu').toggle($(this).scrollTop() > 1000)
+        });
+    </script>
+</body>
+</html>
